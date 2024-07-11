@@ -115,8 +115,9 @@ function LoginRegister() {
         Register{" "}
       </Button>{" "}
       {/* <Button type="primary" className="clean-button" onClick={Temizlik}>
-                                Temizlik{" "}
-                              </Button>{" "} */}{" "}
+
+                                            Temizlik{" "}
+                                          </Button>{" "} */}{" "}
       {/*Bu kısım temzilik butonu sayesinde local storageyi temizliyor */}{" "}
     </div>
   );

@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../../api/api/proje-6-soru-coz"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../.dist"
+		},
+		{
+			"path": "../../.git"
+		},
+		{
+			"path": "../../node_modules"
+		},
+		{
+			"path": "../../public"
+		}
+	],
+	"settings": {}
+}
