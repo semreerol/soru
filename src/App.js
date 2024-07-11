@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./pages/RegisterPage";
+import LoginRegister from "./pages/LoginRegister";
+import MatPage from "./pages/MatPage";
+import Profil from "./pages/Profil";
+import IngPage from "./pages/IngPage";
+import SosPage from "./pages/SosPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<LoginRegister />} />{" "}
+        <Route path="/login" element={<LoginPage />} />{" "}
+        <Route path="/register" element={<RegisterPage />} />{" "}
+        <Route path="/mat" element={<MatPage />} />{" "}
+        <Route path="/profil" element={<Profil />} />{" "}
+        <Route path="/sos" element={<SosPage />} />{" "}
+        <Route path="/ing" element={<IngPage />} />{" "}
+      </Routes>{" "}
+    </Router>
   );
 }
 

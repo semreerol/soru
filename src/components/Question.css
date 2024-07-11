@@ -1,0 +1,41 @@
+/* Question.css */
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card-container {
+  width: 500px;
+  background-color: teal;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.question-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.question-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.answer-button {
+  margin: 10px;
+  width: 200px;
+  font-size: 16px;
+}
+
+.finish-button {
+  margin-top: 20px;
+  width: 220px;
+  font-size: 16px;
+}
